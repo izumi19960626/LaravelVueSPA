@@ -1,0 +1,44 @@
+header {
+  margin-top: -10px;
+  background: $white;
+
+  h1 {
+    font-size: 12px;
+    margin: 10px;
+  }
+
+  .navbar-brand {
+    color: $white;
+  }
+
+  .navbar {
+    background: $thin-gray;
+    border-color: $thin-gray;
+  }
+  .navbar a{
+    color:$white !important;
+  }
+
+  .header {
+    &-nav-logo {
+      width: 200px;
+      margin-top: -15px;
+    }
+  }
+
+  #header {
+    &_nav {
+      &_home {
+        color: $white;
+      }
+
+      &_login {
+        color: $white;
+      }
+
+      &_register {
+        color: $white;
+      }
+    }
+  }
+}

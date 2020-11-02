@@ -1,0 +1,70 @@
+body a{
+  cursor: pointer;
+}
+header {
+  margin-top: -10px;
+  background: $white;
+
+  a:hover{
+    text-decoration: none;
+  }
+
+  h1 {
+    font-size: 24px;
+    font-family:serif;
+    color:$facebook-blue;
+    margin: 45px 30px;
+  }
+
+  .navbar-brand {
+    color: $white;
+  }
+
+  .navbar {
+    background: $facebook-blue;
+    border-color: $facebook-blue;
+  }
+  .navbar a{
+    color:$white !important;
+  }
+
+  .header {
+    &-nav-logo {
+      width: 200px;
+      margin-top: -15px;
+    }
+    &-nav_drop-down {
+      background: $thin-gray;
+    }
+  }
+
+  #header {
+    &_nav {
+      &_home {
+        color: $white;
+      }
+
+      &_login {
+        color: $white;
+      }
+
+      &_register {
+        color: $white;
+      }
+
+      &_name {
+        color: $white;
+      }
+
+      &_mypage {
+        color: $white;
+        margin: auto;
+      }
+
+      &_logout {
+        color: $white;
+        margin: auto;
+      }
+    }
+  }
+}

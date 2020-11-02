@@ -1,0 +1,50 @@
+.home {
+  &-quiz {
+    &_introduction {
+      padding: 5px 10px;
+
+      &-h2 {
+        border-bottom: solid;
+
+        &-logo {
+          width: 10%;
+        }
+      }
+    }
+    &_setting {
+      padding: 5px 10px;
+
+      &-h2 {
+        border-bottom: solid;
+
+        &-logo {
+          width: 10%;
+        }
+      }
+    }
+
+    &_ranking {
+      padding: 5px 10px;
+
+      &-h2 {
+        border-bottom: solid;
+
+        &-logo {
+          width: 10%;
+        }
+      }
+    }
+  }
+
+  &_notice {
+    padding: 5px 10px;
+
+    &-h2 {
+      border-bottom: solid;
+
+      &-logo {
+        width: 10%;
+      }
+    }
+  }
+}

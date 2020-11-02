@@ -1,0 +1,57 @@
+.quiz {
+  &-question {
+    &-h2 {
+      border-bottom: solid;
+    }
+
+    &_logo {
+      width: 10%;
+    }
+  }
+
+  &-answer_list {
+    background: #c5e4ff;
+
+    ul {
+      padding: 20px 10px;
+
+      li {
+        list-style: none;
+        margin: 10px 0px;
+      }
+    }
+  }
+
+  &-correct {
+    &-h2 {
+      border-bottom: solid;
+    }
+
+    &_logo {
+      width: 10%;
+    }
+
+    &-answer {
+      width: 10%;
+    }
+  }
+
+  &-commentary {
+    &-h2 {
+      border-bottom: solid;
+    }
+
+    &_logo {
+      width: 10%;
+    }
+
+    &_text {
+      padding: 20px 20px;
+    }
+  }
+
+  &_comment button{
+    margin-top: 30px;
+    margin-bottom: 45px;
+  }
+}
