@@ -18,7 +18,7 @@
     <meta property="og:image" content="{{ url('') }}/images/header-logo.png">
     <meta property="og:url" content="{{ url()->full() }}">
     <meta property="og:title" content="4 Answers Quiz 4択クイズ & クイズ徹底解説">
-    <link href="/css/app.css" rel="stylesheet">
+    <link href="public/css/app.css" rel="stylesheet">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="api-token" content="{{ session()->get('api_token') ?? '' }}">
     <title>4 Answers Quiz 4択クイズ & クイズ徹底解説</title>
@@ -27,6 +27,6 @@
     <div id="app">
       <app :errors="{{ $errors }}" :auth="{{ Auth::user() ?? '[]' }}" />
     </div>
-    <script src="/js/app2.js"></script>
+    <script src="public/js/app2.js"></script>
   </body>
 </html>
