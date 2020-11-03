@@ -7,7 +7,6 @@ import 'vue-loading-overlay/dist/vue-loading.css';
 import axios from 'axios'
 import jQuery from "jquery";
 import MainPage from './components/page/MainPage'
-import MyPage from './components/page/MyPage'
 
 window.$ = window.jQuery = jQuery;
 require('bootstrap');
