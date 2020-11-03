@@ -35,7 +35,7 @@ const router = new Router({
     {
       path: '/mypage',
       name: 'mypage',
-      component: Mypage,
+      component: MyPage,
       meta: {
         requiresAuth: true
       }
